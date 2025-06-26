@@ -5,6 +5,7 @@ import path from 'path'
 
 
 export default defineConfig({
+  base: './',
   server: {host: '0.0.0.0',port: 6001,},
   resolve: {alias: {'@': path.resolve(import.meta.dirname, 'src'),},},
   plugins: [react()],
