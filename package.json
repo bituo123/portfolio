@@ -1,23 +1,25 @@
 {
-	"name": "vite-template-react",
+	"name": "vite-react-portfolio",
 	"version": "1.4.0",
 	"type": "module",
 	"scripts": {
 		"start": "vite --port 3000 --open",
-		"dev": "vite --port 3000 --open",
+		"dev": "vite --open",
 		"build": "vite build",
 		"serve": "vite preview --open",
 		"test": "vitest"
 	},
 	"dependencies": {
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"react-router-dom": "^7.6.2"
 	},
 	"devDependencies": {
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/react": "^16.2.0",
 		"@vitejs/plugin-react": "^4.3.4",
 		"jsdom": "^26.0.0",
+		"sass": "^1.89.2",
 		"vite": "^6.2.1",
 		"vitest": "^3.0.8"
 	}
