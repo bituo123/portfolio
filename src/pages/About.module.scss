@@ -1,4 +1,4 @@
-@import '../variables.modules.scss';
+@use '../variables.modules.scss' as *;
 
 .about {
   padding: 4rem 2rem;

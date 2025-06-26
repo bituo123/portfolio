@@ -1,4 +1,4 @@
-@import '../variables.modules.scss';
+@use '../variables.modules.scss' as *;
 
 .portfolio {
   padding: 4rem 2rem;

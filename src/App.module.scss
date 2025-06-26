@@ -1,4 +1,4 @@
-@import "./variables.modules";
+@use "./variables.modules" as *;
 
 // Root font size for rem calculations
 html {

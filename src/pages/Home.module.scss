@@ -1,4 +1,4 @@
-@import '../variables.modules.scss';
+@use '../variables.modules.scss' as *;
 
 .home {
   min-height: calc(100vh - 6rem);
