@@ -16,9 +16,10 @@
 
 .title {
   font-size: clamp(3rem, 6vw, 4.8rem);
-  font-weight: bold;
+  font-weight: $font-bold;
   margin-bottom: 4rem;
   text-align: center;
+  color: $text-primary;
   background: linear-gradient(135deg, $purple, $pink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -44,8 +45,9 @@
 
 .description {
   font-size: 1.8rem;
+  font-weight: $font-normal;
   line-height: 1.8;
-  color: var(--text-secondary);
+  color: $text-secondary;
   margin-bottom: 2rem;
   
   &:last-child {

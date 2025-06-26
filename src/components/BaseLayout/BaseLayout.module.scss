@@ -119,21 +119,21 @@
   color: $purple;
   background-color: var(--bg-secondary);
   
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -0.4rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0.4rem;
-    height: 0.4rem;
-    background-color: $purple;
-    border-radius: 50%;
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -0.4rem;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  //   width: 0.4rem;
+  //   height: 0.4rem;
+  //   background-color: $purple;
+  //   border-radius: 50%;
     
-    @media (max-width: 768px) {
-      display: none;
-    }
-  }
+  //   @media (max-width: 768px) {
+  //     display: none;
+  //   }
+  // }
 }
 
 .navActions {

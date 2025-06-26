@@ -14,8 +14,9 @@
 
 .title {
   font-size: clamp(3rem, 6vw, 4.8rem);
-  font-weight: bold;
+  font-weight: $font-bold;
   margin-bottom: 2rem;
+  color: $text-primary;
   background: linear-gradient(135deg, $purple, $pink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -24,7 +25,8 @@
 
 .subtitle {
   font-size: clamp(1.6rem, 3vw, 2rem);
-  color: var(--text-secondary);
+  font-weight: $font-normal;
+  color: $text-secondary;
   max-width: 60rem;
   margin: 0 auto;
   line-height: 1.6;
@@ -42,15 +44,15 @@
 }
 
 .projectCard {
-  background-color: var(--bg-secondary);
+  background-color: $bg-primary;
   border-radius: 1.2rem;
   overflow: hidden;
   transition: $transition;
-  border: 0.1rem solid var(--border-color);
+  @extend .shadow-md;
   
   &:hover {
     transform: translateY(-0.8rem);
-    box-shadow: 0 2rem 4rem var(--shadow);
+    @extend .shadow-lg;
   }
 }
 
@@ -78,14 +80,15 @@
 
 .projectTitle {
   font-size: 2.4rem;
-  font-weight: bold;
+  font-weight: $font-bold;
   margin-bottom: 1.2rem;
-  color: var(--text-primary);
+  color: $text-primary;
 }
 
 .projectDescription {
   font-size: 1.6rem;
-  color: var(--text-secondary);
+  font-weight: $font-normal;
+  color: $text-secondary;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -102,8 +105,9 @@
   padding: 0.6rem 1.2rem;
   border-radius: 2rem;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: $font-medium;
   white-space: nowrap;
+  @extend .shadow-sm;
 }
 
 // Mobile optimizations
@@ -151,7 +155,9 @@
 }
 
 .projectCard {
-  animation: fadeInUp 0.8s ease-out;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 0.8s ease-out forwards;
   
   &:nth-child(1) { animation-delay: 0.1s; }
   &:nth-child(2) { animation-delay: 0.2s; }

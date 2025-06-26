@@ -14,12 +14,24 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      title: t('portfolio.projects.project1.title'),
+      description: t('portfolio.projects.project1.description'),
+      technologies: t('portfolio.projects.project1.technologies', { returnObjects: true })
+    },
+    {
+      id: 3,
+      title: t('portfolio.projects.project1.title'),
+      description: t('portfolio.projects.project1.description'),
+      technologies: t('portfolio.projects.project1.technologies', { returnObjects: true })
+    },
+    {
+      id: 4,
       title: t('portfolio.projects.project2.title'),
       description: t('portfolio.projects.project2.description'),
       technologies: t('portfolio.projects.project2.technologies', { returnObjects: true })
     },
     {
-      id: 3,
+      id: 5,
       title: t('portfolio.projects.project3.title'),
       description: t('portfolio.projects.project3.description'),
       technologies: t('portfolio.projects.project3.technologies', { returnObjects: true })

@@ -17,8 +17,9 @@
 
 .title {
   font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: bold;
+  font-weight: $font-bold;
   margin-bottom: 2rem;
+  color: $text-primary;
   background: linear-gradient(135deg, $purple, $pink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -28,7 +29,8 @@
 
 .subtitle {
   font-size: clamp(1.6rem, 4vw, 2.4rem);
-  color: var(--text-secondary);
+  font-weight: $font-normal;
+  color: $text-secondary;
   margin-bottom: 4rem;
   line-height: 1.6;
   max-width: 60rem;
@@ -47,7 +49,7 @@
 .secondaryBtn {
   padding: 1.6rem 3.2rem;
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: $font-semibold;
   border-radius: 0.8rem;
   cursor: pointer;
   transition: $transition;
@@ -60,22 +62,23 @@
 .primaryBtn {
   background: linear-gradient(135deg, $purple, $pink);
   color: $white;
-  box-shadow: 0 0.8rem 2.4rem rgba($purple, 0.3);
+  @extend .shadow-md;
   
   &:hover {
     transform: translateY(-0.2rem);
-    box-shadow: 0 1.2rem 3.2rem rgba($purple, 0.4);
+    @extend .shadow-lg;
   }
   
   &:active {
     transform: translateY(0);
+    @extend .shadow-sm;
   }
 }
 
 .secondaryBtn {
-  background: transparent;
-  color: var(--text-primary);
-  border: 0.2rem solid var(--border-color);
+  background: $bg-secondary;
+  color: $text-primary;
+  @extend .shadow-sm;
   
   &:hover {
     background-color: var(--bg-secondary);

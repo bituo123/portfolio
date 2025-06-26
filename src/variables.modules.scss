@@ -1,3 +1,4 @@
+// 主色调
 $purple: #8D53FF;
 $pink: #CA6BE6;
 $white: #f8f8f8;
@@ -5,10 +6,39 @@ $dark: #1f1f1f;
 $red: #FF6057;
 $yellow: #FFBD2E;
 $green: #27C93F;
-$lightgray: #c9c9c9;
+
+// 文字层次颜色 - 深浅构建层次结构
+$text-primary: #2d3748;     // 主要内容 - 深灰色（标题等）
+$text-secondary: #4a5568;   // 次要内容 - 灰色（介绍文字）
+$text-tertiary: #718096;    // 辅助内容 - 浅灰色（日期等）
+$text-muted: #a0aec0;       // 最轻的文字
+
+// 背景颜色层次
+$bg-primary: #ffffff;
+$bg-secondary: #f7fafc;
+$bg-tertiary: #edf2f7;
+
+// 边框和分割
+$border-light: #e2e8f0;
+$border-medium: #cbd5e0;
 
 $transition: all 250ms ease;
 
-.shadowed {
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+// 干净的阴影 - 微妙的垂直偏移
+.shadow-sm {
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1), 0 0.1rem 0.2rem rgba(0, 0, 0, 0.06);
 }
+
+.shadow-md {
+  box-shadow: 0 0.4rem 0.6rem -0.1rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem -0.1rem rgba(0, 0, 0, 0.06);
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 1.5rem -0.3rem rgba(0, 0, 0, 0.1), 0 0.4rem 0.6rem -0.2rem rgba(0, 0, 0, 0.05);
+}
+
+// 字重层次
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
