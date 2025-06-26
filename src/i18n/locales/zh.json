@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "首页",
+    "portfolio": "作品集",
+    "about": "关于我",
+    "contact": "联系我",
+    "logo": "个人作品集"
+  },
+  "home": {
+    "title": "欢迎来到我的个人作品集",
+    "subtitle": "我是一名充满激情的开发者，致力于创造令人惊叹的数字体验",
+    "viewWork": "查看我的作品",
+    "contactMe": "联系我"
+  },
+  "portfolio": {
+    "title": "我的作品集",
+    "subtitle": "这里是我最近的一些项目",
+    "projects": {
+      "project1": {
+        "title": "项目一",
+        "description": "使用React和Node.js构建的现代化Web应用程序",
+        "technologies": ["React", "Node.js", "MongoDB"]
+      },
+      "project2": {
+        "title": "项目二",
+        "description": "移动端优先的响应式网站，具有高级动画效果",
+        "technologies": ["HTML5", "CSS3", "JavaScript"]
+      },
+      "project3": {
+        "title": "项目三",
+        "description": "集成支付功能的电子商务平台",
+        "technologies": ["React", "Express", "PostgreSQL"]
+      }
+    },
+    "projectImage": "项目图片"
+  },
+  "about": {
+    "title": "关于我",
+    "description1": "我是一名充满激情的全栈开发者，拥有超过3年的现代Web应用程序开发经验。我喜欢将复杂的问题转化为简单、美观和直观的解决方案。",
+    "description2": "当我不在编程时，你可以发现我在探索新技术、为开源项目做贡献，或者一边享受一杯好咖啡一边阅读有关Web开发最新趋势的文章。",
+    "skillsTitle": "技能与技术",
+    "experienceTitle": "工作经历",
+    "profilePhoto": "个人照片",
+    "experience": {
+      "senior": {
+        "period": "2021年 - 至今",
+        "title": "高级前端开发工程师",
+        "description": "负责多个客户项目的前端开发工作"
+      },
+      "fullstack": {
+        "period": "2019年 - 2021年",
+        "title": "全栈开发工程师",
+        "description": "使用现代技术开发和维护Web应用程序"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "我很乐意听到您的声音。请给我发送消息，我会尽快回复您。",
+    "info": {
+      "title": "联系信息",
+      "email": "邮箱",
+      "phone": "电话",
+      "location": "位置",
+      "follow": "关注我"
+    },
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "subject": "主题",
+      "message": "消息",
+      "send": "发送消息",
+      "success": "感谢您的消息！我会尽快回复您。"
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "领英",
+      "twitter": "推特"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 个人作品集。保留所有权利。"
+  },
+  "theme": {
+    "toggle": "切换主题",
+    "menu": "切换菜单"
+  }
+}

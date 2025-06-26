@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "logo": "Portfolio"
+  },
+  "home": {
+    "title": "Welcome to My Portfolio",
+    "subtitle": "I'm a passionate developer creating amazing digital experiences",
+    "viewWork": "View My Work",
+    "contactMe": "Contact Me"
+  },
+  "portfolio": {
+    "title": "My Portfolio",
+    "subtitle": "Here are some of my recent projects",
+    "projects": {
+      "project1": {
+        "title": "Project One",
+        "description": "A modern web application built with React and Node.js",
+        "technologies": ["React", "Node.js", "MongoDB"]
+      },
+      "project2": {
+        "title": "Project Two",
+        "description": "Mobile-first responsive website with advanced animations",
+        "technologies": ["HTML5", "CSS3", "JavaScript"]
+      },
+      "project3": {
+        "title": "Project Three",
+        "description": "E-commerce platform with payment integration",
+        "technologies": ["React", "Express", "PostgreSQL"]
+      }
+    },
+    "projectImage": "Project Image"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I'm a passionate full-stack developer with over 3 years of experience in creating modern web applications. I love turning complex problems into simple, beautiful and intuitive solutions.",
+    "description2": "When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or enjoying a good cup of coffee while reading about the latest trends in web development.",
+    "skillsTitle": "Skills & Technologies",
+    "experienceTitle": "Experience",
+    "profilePhoto": "Profile Photo",
+    "experience": {
+      "senior": {
+        "period": "2021 - Present",
+        "title": "Senior Frontend Developer",
+        "description": "Leading frontend development for multiple client projects"
+      },
+      "fullstack": {
+        "period": "2019 - 2021",
+        "title": "Full Stack Developer",
+        "description": "Developed and maintained web applications using modern technologies"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "I'd love to hear from you. Send me a message and I'll respond as soon as possible.",
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "follow": "Follow Me"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Thank you for your message! I will get back to you soon."
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Portfolio. All rights reserved."
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "menu": "Toggle menu"
+  }
+}

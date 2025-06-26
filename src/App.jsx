@@ -1,5 +1,5 @@
 import './App.module.scss';
-import BaseLayout from "@/components/BaseLayout";
+import BaseLayout from "@/components/BaseLayout/BaseLayout";
 import {BrowserRouter} from "react-router-dom";
 
 function App() {
